@@ -1,0 +1,254 @@
+
+:root {
+    --primaryColor: #212121;
+    --secondaryColor: #757575;
+    --accentColor: #2196F3;
+    --bgW: #FFFFFF;
+    --bgG: #2F303A;
+    --bgLG: #F5F4FA;
+    --logoBlack: #000000;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--primaryColor);
+    }
+
+.btn {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+    color: inherit;
+}
+
+.link:hover,
+.link:focus,
+.btn:hover,
+.btn:focus {
+    color: var(--accentColor);
+}
+
+/* HEADER  */
+
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.navigation {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.logo-black {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: var(--logoBlack);
+}
+.logo-black span {
+    color: var(--accentColor);
+}
+.logo-black:hover,
+.logo-black:focus {
+    color: var(--logoBlack);
+}
+
+.mail,
+.tel {
+    color: var(--secondaryColor);
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.current {
+    color: var(--accentColor);
+}
+
+/* FOOTER  */
+
+.footer {
+    background: var(--bgG);
+}
+
+.address {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--bgW);
+}
+
+.mail-footer,
+.tel-footer {
+    line-height: 1.71;
+    color: var(--secondaryColor);
+    font-size: 14px;
+}
+
+.logo-white {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: var(--bgW);
+}
+.logo-white span {
+    color: var(--accentColor);
+}
+
+.logo-white:hover,
+.logo-white:focus {
+    color: var(--bgW);
+}
+
+/* INDEX */
+
+.effective {
+    background: var(--bgG);
+}
+
+.effective-title {
+    width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--bgW);
+}
+
+.effective-btn {
+    font-weight: 700;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--bgW);
+    background: var(--accentColor);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.effective-btn:focus,
+.effective-btn:hover {
+    background: #188CE8;
+    color: var(--bgW);
+}
+
+.benefits-title {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.benefits-article h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.benefits-article p {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondaryColor);
+}
+
+.whatdoing-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.team {
+    background: var(--bgLG);
+} 
+
+.team-developer {
+    width: 270px;
+    height: 368px;
+    background: var(--bgW);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-developer h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    }
+
+.team-developer p {
+    line-height: 1.2;
+    text-align: center;
+    color: var(--secondaryColor);
+}
+
+/* PORFOLIO */
+
+.porfolio-title {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.filter-button {
+    background: var(--bgLG);
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    line-height: 1.62;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background: var(--accentColor);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--bgW);
+}
+
+.cards-card {
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEEEEE;
+}
+
+.cards-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.cards-link:hover,
+.cards-link:focus {
+    color: inherit;
+}
+
+.cards-text {
+    line-height: 1.88;
+    color: var(--secondaryColor);
+}
