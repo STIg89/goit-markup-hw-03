@@ -93,6 +93,10 @@ img {
     margin-right: 50px;
 }
 
+.navigation-link {
+    padding: 6px 0;
+}
+
 .contacts {
     display: flex;
 }
@@ -111,7 +115,7 @@ img {
     color: var(--logoBlack);
 }
 
-.mail {
+.contacts-item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -121,6 +125,7 @@ img {
     font-size: 14px;
     line-height: 1.2;
     font-weight: 500;
+    padding: 7px 0;
 }
 
 .current {
@@ -187,9 +192,11 @@ img {
 }
 
 .effective-btn {
-    display: block;
+    display: flex;
     margin: 0 auto;
-    padding: 10px 32px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
     font-weight: 700;
     line-height: 1.88;
     text-align: center;
