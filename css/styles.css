@@ -238,6 +238,10 @@ img {
     justify-content: space-between;
 }
 
+.benefits-article {
+    flex-basis: calc((100% - 90px) / 4);
+}
+
 .benefits-article:not(:last-child) {
     margin-right: var(--cardGap);
 }
